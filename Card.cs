@@ -11,7 +11,7 @@ class Card {
     // family --done
     // value in game --done
     private readonly byte value;
-    private readonly CardFamilies family;
+    public readonly CardFamilies family;
     private static readonly ArgumentException exValue = new("Invalid value for a Card, must be a number between 1 and 10");
     public Card(byte value, CardFamilies family)
     {

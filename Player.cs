@@ -1,3 +1,5 @@
+using System.Collections;
+
 class Player {
 
     public string Name {get; private set; }
@@ -5,6 +7,16 @@ class Player {
     {
         this.Name = name;
     }
-
-    public List<Card>? Cards;
+    public byte PointsInGame = 0;
+    public bool TurnBriscola = false;
+    public List<Card> Cards = new();
+    Stack<Card> Mazzo = new();
+    public void PushMazzo(Card card) => Mazzo.Push(card);
+    public byte GetMazzoPoints() {
+        byte ret = 0;
+        foreach(var c in Mazzo){
+            ret += c.Value;
+        }
+        return ret;
+    }
 }

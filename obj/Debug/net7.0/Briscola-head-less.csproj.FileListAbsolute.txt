@@ -26,3 +26,17 @@
 /home/leo/Projects-school/Briscola-head-less/bin/Debug/net7.0/Briscola-head-less.pdb
 /home/leo/Projects-school/Briscola-head-less/obj/Debug/net7.0/Briscola-head-less.genruntimeconfig.cache
 /home/leo/Projects-school/Briscola-head-less/obj/Debug/net7.0/ref/Briscola-head-less.dll
+/home/leo/Briscola/bin/Debug/net7.0/Briscola-head-less
+/home/leo/Briscola/bin/Debug/net7.0/Briscola-head-less.deps.json
+/home/leo/Briscola/bin/Debug/net7.0/Briscola-head-less.runtimeconfig.json
+/home/leo/Briscola/bin/Debug/net7.0/Briscola-head-less.dll
+/home/leo/Briscola/bin/Debug/net7.0/Briscola-head-less.pdb
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.GeneratedMSBuildEditorConfig.editorconfig
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.AssemblyInfoInputs.cache
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.AssemblyInfo.cs
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.csproj.CoreCompileInputs.cache
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.dll
+/home/leo/Briscola/obj/Debug/net7.0/refint/Briscola-head-less.dll
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.pdb
+/home/leo/Briscola/obj/Debug/net7.0/Briscola-head-less.genruntimeconfig.cache
+/home/leo/Briscola/obj/Debug/net7.0/ref/Briscola-head-less.dll
