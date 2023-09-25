@@ -69,7 +69,6 @@ while(!exit){
         foreach(var p in WithBriscola){
             if(max is null || p.Card.ValueInGame > max.PointsInGame) max = p.Player;
         }
-            
     }
 
     Console.WriteLine($"Player {max!.Name}, ha preso le carte");
@@ -88,7 +87,6 @@ for(byte i = 0; i < N_PLAYERS; ++i){
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine($"il giocatore:{winner.Name} ha vinto!");
 Console.ResetColor();
-
 
 static Card SelectDropCard(Player player){
     Console.WriteLine($"Giocatore {player.Name}, seleziona la carta:");

@@ -1,7 +1,6 @@
 using System.Collections;
 
 class Player {
-
     public string Name {get; private set; }
     public Player(string name)
     {
@@ -10,7 +9,7 @@ class Player {
     public byte PointsInGame = 0;
     public bool TurnBriscola = false;
     public List<Card> Cards = new();
-    Stack<Card> Mazzo = new();
+    readonly Stack<Card> Mazzo = new();
     public void PushMazzo(Card card) => Mazzo.Push(card);
     public byte GetMazzoPoints() {
         byte ret = 0;
